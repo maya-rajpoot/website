@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="slider-container">
+    <div class="slider">
+      <div class="slide">
+        <h1>Hello,<br>I'm Human</h1>
+        <i>
+          <h3>
+            A freelance UI/ UX / Web Designer. <br>
+            Based in Lorem Ipsum
+          </h3><br>
+        </i>
+        <button class="download-btn">Download Resume</button>
+        <button class="hire-btn">Hire Me</button>
+      </div>
+      <div class="slide">
+        <h1>Hello,<br>I'm Super Human</h1>
+        <i>
+          <h3>
+            A freelance UI/ UX / Web Designer. <br>
+            Based in Lorem Ipsum
+          </h3><br>
+        </i>
+        <button class="download-btn">Download Resume</button>
+        <button class="hire-btn">Hire Me</button>
+      </div>
+      <div class="slide">
+        <h1>Hello,<br>I'm Student Of CS</h1>
+        <i>
+          <h3>
+            A freelance UI/ UX / Web Designer. <br>
+            Based in Lorem Ipsum
+          </h3><br>
+        </i>
+        <button class="download-btn">Download Resume</button>
+        <button class="hire-btn">Hire Me</button>
+      </div>
+    </div>
+    <button class="prev" onclick="moveSlide(-1)"> > </button>
+    <button class="next" onclick="moveSlide(1)">
+      < </button>
+  </div>
+  <div class="header">
+    <div class="logoContainer">
+      <h1 class="logo"><i><span class="name">LOGO</span> HERE</i></h1>
+    </div>
+    <div class="navbar">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Service</a></li>
+        <li><a href="#">My Skills</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">My Clients</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+  <main>
+    <div class="first-section">
+      <div class="left">
+        <h1>About Me</h1>
+        <span class="decoration"></span>
+        <p class="dis">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex repudiandae, provident voluptatibus incidunt
+          perferendis unde error molestiae odit atque totam ad, illo dignissimos natus accusamus. Consequatur quos sunt
+          cum eveniet. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error nisi perferendis velit aliquam,
+          ad
+          nobis ipsum repellat nulla amet corrupti beatae ea modi, explicabo dolorem voluptatem vero necessitatibus
+          accusantium architecto.
+          <br><br>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum possimus, dicta corporis at doloribus, ex
+          officiis facilis iste rem ab culpa beatae qui aut nam quasi dolorum temporibus provident. Error!
+        </p>
+        <button class="read-btn">Read More</button>
+      </div>
+      <div class="right">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlWBtMRJAeVSSAZ4Vlh8nN7GM5MEiSZfp5u0cga8uEaQ&s"
+          alt="Profile pic">
+      </div>
+    </div>
+    <div class="second-section">
+      <div class="title">
+        <h1 class="service">MY SERVICES</h1>
+      </div>
+      <div class="sections">
+        <div class="section">
+          <h2>Web & Mobile Design</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit qui sint corporis nulla, sapiente minus ex
+            error labore harum totam ut culpa explicabo vero voluptatum?</p>
+        </div>
+        <div class="section">
+          <h2>Web Development</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit qui sint corporis nulla, sapiente minus ex
+            error labore harum totam ut culpa explicabo vero voluptatum?</p>
+        </div>
+        <div class="section">
+          <h2>Soical Media</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit qui sint corporis nulla, sapiente minus ex
+            error labore harum totam ut culpa explicabo vero voluptatum?</p>
+        </div>
+      </div>
+    </div>
+    <div class="third-section">
+      <div class="title">
+        <h1 class="service">MY SKILLS</h1>
+      </div>
+      <div class="sections">
+        <div class="left">
+          <h2>LOREM IPSUM IS DUMMY TEXT</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias placeat necessitatibus quos ut sapiente
+            magni sunt quidem, culpa, dolores laudantium, cupiditate eum possimus blanditiis. Distinctio eius eligendi
+            temporibus quasi aspernatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, minima
+            voluptate dolores ratione hic voluptas, ipsa necessitatibus accusamus officiis libero dignissimos similique
+            quod. A cumque, exercitationem repellendus itaque beatae culpa. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Perferendis repudiandae incidunt voluptatem nesciunt aliquid possimus nisi, eaque quos
+            similique ipsam blanditiis soluta dolorem aliquam commodi perspiciatis? At quas quae minima.</p>
+        </div>
+        <div class="right">
+          <div class="section">
+            <div class="text">
+              <h4>Coding:</h4>
+              <h4>80%</h4>
+            </div>
+            <div class="status">
+              <div class="status-bar zero" data-percent="80"></div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="text">
+              <h4>Designing:</h4>
+              <h4>70%</h4>
+            </div>
+            <div class="status">
+              <div class="status-bar first" data-percent="70"></div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="text">
+              <h4>Testing:</h4>
+              <h4>93%</h4>
+            </div>
+            <div class="status">
+              <div class="status-bar second" data-percent="93"></div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="text">
+              <h4>Maintence:</h4>
+              <h4>100%</h4>
+            </div>
+            <div class="status">
+              <div class="status-bar third" data-percent="100"></div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="text">
+              <h4>Debugging:</h4>
+              <h4>90%</h4>
+            </div>
+            <div class="status ">
+              <div class="status-bar forth" data-percent="90"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="forth-section">
+      <div class="title">
+        <h1 class="service">PORTFOLIO</h1>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="#">ALL</a></li>
+          <li><a href="#">BRANDIND</a></li>
+          <li><a href="#">PRINT</a></li>
+          <li><a href="#">WEB DESIGN</a></li>
+          <li><a href="#">PHOTOGRAPHY</a></li>
+          <li><a href="#">DEVELOPMENT</a></li>
+        </ul>
+      </div>
+      <div class="projects">
+        <a href="#" class="project"><img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6Iv-yC7OxPQA7e3kJeZMwEiCir3bwcluANWhAJ-k00w&s"
+            alt="Project1"></a>
+        <a href="#" class="project"><img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVkpZXa0K58GR7iJ4YZLTRgQrtRbBxxjQWuw&s"
+            alt="Project2"></a>
+        <a href="#" class="project"><img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXd5iytCf3BfNZ4BpRk5XIsTAQ5VOIwoDUmg&s"
+            alt="Project3"></a>
+        <a href="#" class="project"><img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9UbDLR323QwOdp8uGhRYSSvshnnsZBmzGNw&s"
+            alt="Project4"></a>
+        <a href="#" class="project"><img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZJkGHcmvoKhjpGEYtWE__OH0ySKcHHUdzHg&s"
+            alt="Project5"></a>
+        <a href="#" class="project"><img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqaL5-JhYeViQmjqrYY2qyxEj_sqCvg7JSmg&s"
+            alt="Project6"></a>
+      </div>
+      <div class="btn">
+        <button>See All Our Projects</button>
+      </div>
+    </div>
+    <div class="fifth-section">
+      <div class="title">
+        <h1 class="service">MY CLIENTS</h1>
+      </div>
+      <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <div class="text">
+            <div class="quote">
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quaerat iusto in blanditiis sequi corporis
+              quis quam. Voluptatibus voluptates est possimus architecto officia! Corrupti suscipit est adipisci
+              eveniet, eligendi quod."
+            </div>
+            <h1 class="names">John Doe</h1>
+          </div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <div class="text">
+            <div class="quote">
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quaerat iusto in blanditiis sequi corporis
+              quis quam. Voluptatibus voluptates est possimus architecto officia! Corrupti suscipit est adipisci
+              eveniet, eligendi quod."
+            </div>
+            <h1 class="names">Dr. Senoski</h1>
+          </div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <div class="text">
+            <div class="quote">
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quaerat iusto in blanditiis sequi corporis
+              quis quam. Voluptatibus voluptates est possimus architecto officia! Corrupti suscipit est adipisci
+              eveniet, eligendi quod."
+            </div>
+            <h1 class="names">Barber Oklay</h1>
+          </div>
+        </div>
+
+        <a class="pre" onclick="plusSlides(-1)">❮</a>
+        <a class="nex" onclick="plusSlides(1)">❯</a>
+
+      </div>
+      <br>
+
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+    </div>
+    <div class="sixth-section">
+      <div class="title">
+        <h1 class="service">GET IN TOUCH</h1>
+      </div>
+      <div class="footer">
+        <div class="soical-icons">
+          <div class="icon">
+            <a href="#" class="fa fa-facebook">Facebook</a>
+          </div>
+          <div class="icon">
+            <a href="#" class="fa fa-twitter">Twitter</a>
+          </div>
+          <div class="icon">
+            <a href="#" class="fa fa-linkedin">LinkedIn</a>
+          </div>
+          <div class="icon">
+            <a href="#" class="fa fa-youtube">YouTube</a>
+          </div>
+          <div class="icon">
+            <a href="#" class="fa fa-instagram">Instagram</a>
+          </div>
+          <div class="icon">
+            <a href="#" class="fa fa-pinterest">Pinterest</a>
+          </div>
+        </div>
+        <div class="form">
+          <form action="#" id="contactform" class="contactform">
+            <h1 class="Form">Send Me A Message</h1><br>
+            <input type="text" placeholder="Name.." class="child">
+            <input type="email" placeholder="Email.." class="child">
+            <input type="text" placeholder="Subject">
+            <textarea name="message" id="message" placeholder="Message" rows="4"></textarea>
+            <div class="btn">
+              <button class="submitbtn">Send A Message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>Copyright @2024 MAI-Tech._|_All Right Reserved 2024 </p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
